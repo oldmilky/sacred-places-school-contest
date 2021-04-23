@@ -11,4 +11,4 @@
 - Flexbox
 - Адаптивная и резиновая верстка
 
-Посмотреть работу можно по ссылке - https://oldmilky.github.io/sacred-places/index.html
+Посмотреть работу можно по ссылке - https://oldmilky.github.io/sacred-places-school-contest/
