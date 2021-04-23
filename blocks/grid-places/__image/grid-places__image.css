@@ -1,0 +1,25 @@
+.grid-places__image {
+  max-width: 460px;
+  min-height: 460px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1152px) {
+  .grid-places__image {
+    max-width: 440px;
+    min-height: 440px;
+  }
+}
+@media screen and (max-width: 956px) {
+  .grid-places__image {
+    max-width: 340px;
+    min-height: 340px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .grid-places__image {
+    max-width: 100%;
+    margin-bottom: 32px;
+    width: 100%;
+    min-height: 220px;
+  }
+}

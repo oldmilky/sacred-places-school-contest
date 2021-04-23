@@ -1,0 +1,50 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: calc(31.25% - 370px);
+    padding-bottom: calc(31.25% - 370px);
+    min-height: 740px;
+    background-image: url(../../../images/cover__trees.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .cover__link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+  }
+  .cover__link:hover:before {
+    opacity: 0.8;
+  }
+  @media screen and (max-width: 1279px) {
+    .cover__link {
+      padding-top: calc(31.25% - 320px);
+      padding-bottom: calc(31.25% - 320px);
+      min-height: 640px;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .cover__link {
+      padding-top: calc(31.25% - 240px);
+      padding-bottom: calc(31.25% - 240px);
+      min-height: 480px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .cover__link {
+      padding-top: calc(31.25% - 100px);
+      padding-bottom: calc(31.25% - 100px);
+      min-height: 200px;
+    }
+  }
